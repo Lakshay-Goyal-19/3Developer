@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .card {
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h2 {
+            margin: 15px 0 10px;
+            font-size: 20px;
+        }
+        .card p {
+            color: #555;
+            font-size: 14px;
+        }
+        .card .price {
+            color: #28a745;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .card button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .card button:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Product Image">
+        <h2>Product Name</h2>
+        <p>Short description of the product goes here.</p>
+        <div class="price">$99.99</div>
+        <button>Add to Cart</button>
+    </div>
 </body>
 </html>
